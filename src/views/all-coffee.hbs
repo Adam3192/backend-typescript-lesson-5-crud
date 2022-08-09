@@ -1,0 +1,9 @@
+<h1>List of Coffee Items</h1>
+<ul>
+    {{#each coffeeList}}
+    <li>
+        {{name}} | {{price}}
+        <a href="/coffee/{{name}}">View Details</a>
+    </li>
+    {{/each}}
+</ul>
